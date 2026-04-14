@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Шрифт не по умолчанию */
+    margin: 40px;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f0fdf4; /* Очень светлый зеленый фон */
+    color: #333;
+}
+
+/* Зеленый цвет для заголовков (условие задания) */
+h1, h2 {
+    color: #2e8b57; /* Цвет SeaGreen */
+    border-bottom: 2px solid #2e8b57;
+    padding-bottom: 5px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #166534;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Делаем списки аккуратнее */
+ul {
+    list-style-type: square;
+}
