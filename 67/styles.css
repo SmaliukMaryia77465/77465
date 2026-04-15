@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    margin: 40px;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #feb5e8; 
+    color: #333;
+}
+
+
+h1, h2 {
+    color: #ff00d9; 
+    border-bottom: 2px solid #f181d9;
+    padding-bottom: 5px;
+}
+
+
+a {
+    color: #ff1ebb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Делаем списки аккуратнее */
+ul {
+    list-style-type: square;
+}
