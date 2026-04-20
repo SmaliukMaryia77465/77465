@@ -26,8 +26,12 @@ header {
     border-left: 5px solid #cc0000;
     border-radius:0;
 }
-h1, h2 {
-    color: #ff4d4d;
+h1{
+    color: #f68989;
+    text-transform: uppercase;
+}
+h2{
+    color: #ee4b4b;
     text-transform: uppercase;
 }
 .action-btn{
