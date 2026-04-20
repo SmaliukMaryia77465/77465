@@ -1,13 +1,13 @@
 body {
-    background-color: #f68a8a;
-    color: #f94747;
+    background-color: #f0f0f0;
+    color: #e0e0e0;
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0px;
     padding: 20px;
     line-height: 1.6;   
 } 
 header {
-    background-color: #ef8282;
+    background-color: #990000;
     color: #ffffff;
     text-align: center;
     padding: 50px 20px;
