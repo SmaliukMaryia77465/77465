@@ -1,0 +1,114 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica,Arial, sans-serif; 
+    margin: 0;
+    padding: 20px;
+    line-height: 1.8;
+    background-color: #f0fdf4; 
+    color: #2d3e2d;
+}
+header{
+    max-width: 800px; 
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+   
+    text-align: center;
+    
+   
+    padding: 20px;
+    border-radius: 15px; 
+
+    background: linear-gradient(135deg, #2e7d32, #81c784);
+    color: #ffffff;
+    
+    padding: 80px 20px;
+    border-bottom: 4px solid #162e26;
+}
+  
+.wrapper {
+    display: block;
+    max-width: 800px;
+    margin: -40px 40px;    
+    position: relative;
+}
+.sidebar {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 40px;
+
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(46, 125, 50, 0.1);
+}
+h2 {
+    background: #2e7d32;
+    color: #ffffff; 
+    border:none;
+    padding: 15px 40 px;
+    border-radius: 50px;
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgba(46, 125, 50, 0.3);
+}
+footer {
+    background: #2d3e2d;
+    color:white;
+    padding: 30px;
+    text-align: center;
+    font-size:center;
+}
+.hidden {
+    display: none !important;
+}
+#contact-section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff; /* Белый фон карточки для контраста */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    color: #333; /* Всегда темный текст */
+}
+
+#contact-section h2 {
+    background-color: #2e7d32; /* Зеленая плашка заголовка */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Выравнивание текста влево */
+}
+
+.form-group label {
+    display: block; /* Каждая метка на новой строке */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%; /* Растягиваем на всю ширину контейнера */
+    box-sizing: border-box; /* Чтобы padding не раздувал ширину */
+    padding: 10px;
+    border: 2px solid #2e7d32;
+    border-radius: 6px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.error-msg {
+    color: #d32f2f;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}

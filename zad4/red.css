@@ -1,0 +1,76 @@
+body {
+    background-color: #6b6b6b;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    line-height: 1.6;   
+} 
+header {
+    max-width: 800px; 
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    
+   
+    padding: 20px;
+    border-radius: 15px; 
+
+    background-color: #f82d2d;
+    color: #ffffff;
+   
+    padding: 50px 20px;
+    border-bottom: 4px solid #f4abab;
+}
+.wrappper {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    gap: 20px;
+}
+.card{
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-left: 5px solid #cc0000;
+    border-radius:0;
+}
+h1{
+    color: #f68989;
+    text-transform: uppercase;
+}
+h2{
+    color: #ee4b4b;
+    text-transform: uppercase;
+}
+.action-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: transparent;
+    color: #ff4d4d;
+    border:2px solid #ff4d4d;
+    cursor:pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.action-btn:hover {
+    background-color: #ff4d4d;
+    color: black;
+}
+footer {
+    
+    color: #f666;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+.hidden {
+    display: none !important;
+}
