@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Maryia Smaliuk 77465</title>
+    <link rel="stylesheet" href="green.css" id="theme-link">
+</head>
+<body>
+
+    <header>
+        <h1>Maryia Smaliuk</h1>
+        <p>Studentka Informatyki</p>
+    </header>
+
+    <nav id="top-control-panel">
+        <span class="panel-title">PANEL INTERAKCJI:</span>
+        <button id="btn-green" class="large-btn btn-green-style">ZIELONY MOTYW</button>
+        <button id="btn-red" class="large-btn btn-red-style">CZERWONY MOTYW</button>
+        <button id="btn-toggle-projects" class="large-btn btn-toggle-style">POKAŻ/UKRYJ PROJEKTY</button>
+    </nav>
+
+    <section>
+        <h2>Dane kontaktowe</h2>
+        <ul>
+            <li>Email: m.smaliuk77465@uczelnia.pl</li>
+            <li>📍 Warszawa, Polska</li>
+            <li>GitHub: <a href="https://github.com/SmaliukMaryia77465/77465.git">github.com/MaryiaSmaliuk</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>O mnie</h2>
+        <p>
+            Moje ambicje zawodowe wykraczają poza standardowe ramy inżynierii. Jako studentka Inżynierii Komputerowej, postawiłam sobie za cel całkowite opanowanie sztuki tworzenia nowoczesnych witryn internetowych. Dążę do perfekcji w każdym języku programowania, który stanowi fundament dzisiejszego internetu.
+        </p>
+    </section>
+
+    <section>
+        <h2>Edukacja</h2>
+        <p><strong>Kierunek:</strong> Informatyka</p>
+        <p><strong>Status:</strong> Studentka (2025 - obecnie)</p>
+    </section>
+
+    
+    <section id="projects-section">
+        <h2>Projekty akademickie</h2>
+        <div id="projects-container">
+            
+        </div>
+    </section>
+
+    <section>
+        <h2>Cele Technologiczne na przyszłość</h2>
+        <p>
+            Moja mapa drogowa rozwoju zawodowego obejmuje głębokie zanurzenie w architekturę rozproszoną oraz chmurową.
+        </p>
+        <ul>
+            <li>Pełna biegłość w standardach nowoczesnego web-developmentu.</li>
+            <li>Zrozumienie i implementacja bezpiecznych architektur sieciowych.</li>
+            <li>Tworzenie intuicyjnych interfejsów opartych na badaniach UX/UI.</li>
+        </ul>
+    </section>
+
+    
+    <section>
+        <h2>Umiejętności</h2>
+        <ul id="skills-list">
+            
+        </ul>
+    </section>
+
+    <section id="notes-section">
+        <h2>Notatki</h2>
+        <div class="form-group">
+            <input type="text" id="note-input" placeholder="Wpisz treść notatki...">
+            <button id="btn-add-note" class="large-btn btn-green-style" style="margin-top: 10px;">Dodaj element</button>
+        </div>
+        <ul id="notes-list" style="margin-top: 20px; list-style: none; padding: 0;">
+            </ul>
+    </section>
+    <section id="contact-section">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="fname">Imię:</label>
+                <input type="text" id="fname" name="fname" required>
+                <span id="error-fname" class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="lname">Nazwisko:</label>
+                <input type="text" id="lname" name="lname" required>
+                <span id="error-lname" class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <span id="error-email" class="error-msg"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" required></textarea>
+                <span id="error-message" class="error-msg"></span>
+            </div>
+
+            <button type="submit" class="large-btn btn-submit">Wyślij wiadomość</button>
+            <p id="form-success" style="color: #28a745; display: none; font-weight: bold; margin-top: 10px;">Wiadomość została wysłana!</p>
+        </form>
+    </section>
+
+    <footer>
+        <p>2026 Maryia Smaliuk.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

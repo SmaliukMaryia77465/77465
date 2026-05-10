@@ -1,0 +1,8 @@
+{
+  "skills": ["HTML5 & CSS3", "JavaScript", "Podstawy C#", "Język polski, angielski"],
+  "projects": [
+    {"title": "Zadanie 1", "desc": "Budowa struktury CV w HTML."},
+    {"title": "Zadanie 2", "desc": "Implementacja stylów CSS."},
+    {"title": "Zadanie 5", "desc": "Walidacja formularza."}
+  ]
+}
